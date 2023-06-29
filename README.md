@@ -21,3 +21,9 @@ A automação consiste em acessar o site do Taskit realizar o login e adicionar 
 - Selenium Webdriver
 
 - Maven
+
+### Vídeo da automação
+
+[![Automação](https://img.youtube.com/vi/<ID_DO_VÍDEO>/0.jpg)](https://youtu.be/tS6Ms5u5f5w=<ID_DO_VÍDEO>)
+
+https://www.youtube.com/watch?v=tS6Ms5u5f5w&feature=youtu.be
