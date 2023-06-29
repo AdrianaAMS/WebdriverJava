@@ -17,9 +17,9 @@ public class InformacoesUsuarioTest {
     private WebDriver driver;
     @Before
     public void setup() {
-        //Abrindo o navegador
+        // Abrindo o navegador
         System.setProperty("webdriver.chrome.driver","/Users/adrianasouza/Documents/IdeaProjects/Automacao/drivers/chromedriver");
-        ///Users/adrianasouza ///Users/adriana    /Users/adrianasouza     /Users/adrianasouza/drivers
+
         //System.setProperty("webdriver.chrome.driver","C:\\Users]\\Adriana\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -54,7 +54,6 @@ public class InformacoesUsuarioTest {
         //clicar no botão através do spath - //button[@data-target="addmoredata"]
         driver.findElement(By.xpath("//button[@data-target=\"addmoredata\"]")).click();
 
-
         //Identificar o popup onde esta o formulario de id Addmoredata
         WebElement popupAddMoreData = driver.findElement(By.id("addmoredata"));
 
@@ -68,7 +67,7 @@ public class InformacoesUsuarioTest {
         // Clicar no link de text "SAVE" que esta na popup
         popupAddMoreData.findElement(By.linkText("SAVE")).click();
 
-        // Na mensagem de id "toast-container" validar que o texto é " Your contact has been added!"
+        // Na mensagem de id "toast-container" validar que o texto é "Your contact has been added!"
         WebElement mensagemPop = driver.findElement(By.id("toast-container"));
         String mensagem = mensagemPop.getText();
         assertEquals("Your contact has been added!", mensagem);
