@@ -24,6 +24,6 @@ A automação consiste em acessar o site do Taskit realizar o login e adicionar 
 
 ### Vídeo da automação
 
-[![Video da Automação](https://img.youtube.com/vi/https://youtu.be/tS6Ms5u5f5w/maxresdefault.jpg)](https://www.youtube.com/watch?v=https://youtu.be/tS6Ms5u5f5w)
+[![Teste automatizado](https://img.youtube.com/vi/https://youtu.be/tS6Ms5u5f5w/maxresdefault.jpg)](https://www.youtube.com/watch?v=https://youtu.be/tS6Ms5u5f5w)
 
 https://youtu.be/tS6Ms5u5f5w
